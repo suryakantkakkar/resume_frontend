@@ -1,0 +1,41 @@
+.dashboard-container
+{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sidebar {
+    width: 25%; 
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+  }
+
+  .span-head
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  .span-head span:first-child {
+    font-size: 40px; 
+    font-weight: bold; 
+  }
+  
+  .span-head span:last-child {
+    font-size: 28px;
+    font-weight: normal; 
+  }

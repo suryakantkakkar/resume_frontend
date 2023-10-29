@@ -1,0 +1,41 @@
+/* Header.css */
+
+.header {
+    background-color: #0F015E;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav {
+    display: flex;
+    margin-right: 80px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+  }
+  
+  .nav li {
+    font-size: 14pt;
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-list li a.active {
+    border-bottom: 2px solid white;
+  }
+  
+  li:hover {
+    opacity: 70%;
+  }
+  
